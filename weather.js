@@ -30,12 +30,12 @@ function getWeather(position) {
             temperatureElement.innerHTML = `${data.current.temp_c}°C`;
 
             // 2. display weather icon
-            const weatherIconUrl = data.current.condition.icon;
-            const weatherIconElement = document.getElementById('weather-icon');
-            const iconImage = document.createElement('img');
-            iconImage.src = weatherIconUrl;
-            iconImage.alt = 'Weather Icon';
-            weatherIconElement.appendChild(iconImage);
+            // const weatherIconUrl = data.current.condition.icon;
+            // const weatherIconElement = document.getElementById('weather-icon');
+            // const iconImage = document.createElement('img');
+            // iconImage.src = weatherIconUrl;
+            // iconImage.alt = 'Weather Icon';
+            // weatherIconElement.appendChild(iconImage);
 
             // 3. check if api works
             console.info (`${data.forecast.forecastday[0].day.avgtemp_c}°C`);
@@ -81,11 +81,11 @@ function GetCityByGoogleMap() {
                                 return component.long_name;
                                 break;
                             }
-                            console.info("addressComponents: " + `${i}`);
+                            console.info("addressComponents:" + `${i}`);
                         }
                     }
                 } else {
-                    console.error("Geocoder failed due to: " + status);
+                    console.error("Geocoder failed due to:" + status);
                 }
             });
         });
