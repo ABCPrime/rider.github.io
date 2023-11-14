@@ -1,8 +1,8 @@
 // 初始化
 const config = {
-    apiKey: "apiKey",
-    authDomain: "XXXXX.firebaseapp.com",
-    databaseURL: "https://XXXXX.firebaseio.com/"
+    apiKey: "AIzaSyAA2BvQX814OOEkp6bM20ibnttwyMF_Itg",
+    authDomain: "travelrider-cf3c6.firebaseapp.com",
+    databaseURL: "https://travelrider-cf3c6-default-rtdb.firebaseio.com/"
   };
   firebase.initializeApp(config);
   const database = firebase.database();
