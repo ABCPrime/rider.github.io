@@ -12,6 +12,25 @@
     <link rel="stylesheet" href="home.css">
     <script async
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEkuA2DnlE4Cxam03X_5XGBSplC7-3U2Y&libraries=places&callback=GetCityByGoogleMap"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+    
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyAA2BvQX814OOEkp6bM20ibnttwyMF_Itg",
+                authDomain: "travelrider-cf3c6.firebaseapp.com",
+                projectId: "travelrider-cf3c6",
+                storageBucket: "travelrider-cf3c6.appspot.com",
+                messagingSenderId: "321124708089",
+                appId: "1:321124708089:web:9879eb2cf77624266abc28"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+    
+            // You can now use Firebase services, such as Firestore
+            var firestore = firebase.firestore();
+        </script> 
 </head>
 
 <body>
@@ -30,6 +49,7 @@
             <a href="stay.html">住宿</a>
             <a href="rote.html">旅遊路線</a>
             <a target="_blank" href="https://www.google.com/maps/@24.2163967,120.5854669,15z">Google Map</a>
+            <a href="user.html">使用者登入</a>
         </nav>
     </header>
     <!-- 首頁圖 -->
