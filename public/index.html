@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Firebase Authentication</title>
+    <link rel="stylesheet" href="./user.css">
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+  <head>  
+
+<body>
+  <h1>Firebase Authentication</h1>
+
+  <div>
+    <h2>註冊</h2>
+    <input type="email" id="signup-email" placeholder="Email">
+    <input type="password" id="signup-password" placeholder="Password">
+    <button onclick="signup()">註冊</button>
+  </div>
+
+  <div>
+    <h2>登入</h2>
+    <input type="email" id="login-email" placeholder="Email">
+    <input type="password" id="login-password" placeholder="Password">
+    <button onclick="login()">登入</button>
+  </div>
+  <script src="https://ridertravel-97e68-default-rtdb.asia-southeast1.firebasedatabase.app/"></script>
+  <script src="./user.js"></script>
+</body>
+</html>
+
