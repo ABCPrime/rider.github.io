@@ -158,6 +158,12 @@ section{
     font-size: 40px;
     font-weight: bolder;
 }
+.road h6{
+    text-indent: 900px;
+    color: rgb(233, 0, 117);
+    font-size: 40px;
+    font-weight: bolder;
+}
 
 .road img{
         width: 100%;
