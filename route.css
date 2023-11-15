@@ -240,4 +240,48 @@ section{
         margin-left: 0px;
         height: 400px;
     }
+
+    
+}
+/* 添加以下樣式 */
+.gallery {
+    display: flex;
+    justify-content: flex-start; /* 左對齊 */
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.box-container {
+    flex: 0 0 auto;
+    margin-right: 10px; /* 降低右邊的間距 */
+}
+
+.box {
+    overflow: hidden;
+    border: 3px solid #ddd;
+    border-radius: 20px;
+}
+
+.box img {
+    width: 75%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.content {
+    padding: 10px;
+    text-align: center;
+}
+
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #3498db;
 }
